@@ -1,7 +1,6 @@
 import Fastify from "fastify";
 import fastifyStatic from "@fastify/static";
 import { createServer } from "node:http";
-import { publicPath } from "ultraviolet-static";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 import { baremuxPath } from "@mercuryworkshop/bare-mux/node";
@@ -11,7 +10,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 import proxy from '@fastify/http-proxy';
 
-import { uwsServer } from '../../../uWisp Server/src/index.mjs';
+import { uwsServer } from 'uwisp-server';
 
 const app = Fastify({
   serverFactory: (handler) => {
