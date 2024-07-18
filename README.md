@@ -1,4 +1,4 @@
-[WARNING: DO NOT USE FOR PRODUCTION ENVIORMENTS -- IT CURRENTLY HAS AN UNFIXED MEMORY LEAK]
+# Modified UV Server showcasing how to use the simple implementation of uWisp.
 <p align="center"><img src="https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png" height="200"></p>
 
 <h1 align="center">Ultraviolet-App</h1>
